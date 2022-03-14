@@ -26,7 +26,7 @@ library(tidyverse)
 library(tidytext)
 
 options(scipen=999)
-df = read.csv("C:/Users/Shivapriya B/Desktop/NEU Work/Classwork/Semester 1/IDMP/Week 9/twitter/twitter/realDonaldTrump-20201106.csv");
+df = read.csv("/twitter/twitter/realDonaldTrump-20201106.csv");
 
 df_filter = df %>% filter(isRetweet != "t") %>%
   filter(grepl(" ", text))
