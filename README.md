@@ -1,4 +1,4 @@
-# Presidential-Tweet-Analysis
+# Presidential-Tweet-Analysis using NLP
 This repository consists of code written in R to analyze tweets by Donald Trump to understand the key words used by him over time alongside their impact on the number of retweets received on his Tweets. 
 
 Source Data - 
